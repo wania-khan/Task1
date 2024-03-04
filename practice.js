@@ -46,7 +46,7 @@ console.log("Smallest value from array: "+ Math.min(...input_array));
 
 //Task 8: Find any consecutive repeating value and display them.
 console.log("Repeating values: ");
-for (let i = 0; i <= input_array.length; i++) {
+for (let i = 0; i < input_array.length-1; i++) {
     if (input_array[i] == input_array[i + 1]) {
         console.log(input_array[i]);
     }
