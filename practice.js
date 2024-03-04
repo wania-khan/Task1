@@ -51,3 +51,5 @@ for (let i = 0; i <= input_array.length; i++) {
         console.log(input_array[i]);
     }
 }
+
+//Sample
